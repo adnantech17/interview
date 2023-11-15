@@ -2,4 +2,4 @@ from controller.UserController import UserController
 from controller.BookmarkController import BookmarkController
 from controller.PublisherController import PublisherController
 from controller.TagController import TagController
-# from controller.UserController import UserController
+from controller.ArticleController import ArticleController
