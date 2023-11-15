@@ -6,8 +6,8 @@ class TagRepository:
     def __init__(self):
         self.db = Database()
 
-    def add_tag(self, tag):
+    def addTag(self, tag):
         self.db.tags.append(tag)
 
-    def get_all_tags(self):
+    def getAllTags(self):
         return self.db.tags
